@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText_dersad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ders Adı"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editText_1yazilinotu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="1. Yazılı Notu"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText_2yazilinotu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="2. Yazılı Notu"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button_hesapla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hesapla"
+        android:text="HESAPLA" />
+
+    <ListView
+        android:id="@+id/lv_liste"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
